@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body>img{
+    width: 100%;
+    height: 100%;
+}
+
+#acessibilidade1 {
+    display: inline;
+    width: 100%;
+    transition: left 0.5s;
+    border-radius: 50px;
+}
+
+.acessibilidade2{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+    border-radius: 50px;
+}
+
+.libras{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+}
+
+.modoclaro{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+}
+
+.lupa{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+}
+
+.lupamenos{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+}
+
+.modoescuro{
+    display: none;
+    width: 100%;
+    transition: left 0.5s;
+}
+
+.barraacess{
+    padding: 0.2rem;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    width: 64%;
+    transition: 0.3s;
+}
+
+.acessibilidade{
+    position: fixed;
+    top: 25%;
+    right: 0;
+    display: flex;
+    width: 5rem;
+    height: 5rem;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+
+.acessibilidade p{
+    font-size: 0.8rem;
+    margin: 0.5rem;
+}
